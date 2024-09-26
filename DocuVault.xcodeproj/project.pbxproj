@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C6433A72CA5E34200E20569 /* DocuVaultApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6433A62CA5E34200E20569 /* DocuVaultApp.swift */; };
+		3C6433A92CA5E34200E20569 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6433A82CA5E34200E20569 /* Persistence.swift */; };
+		3C6433AC2CA5E34200E20569 /* DocuVault.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C6433AA2CA5E34200E20569 /* DocuVault.xcdatamodeld */; };
+		3C6433AE2CA5E34200E20569 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6433AD2CA5E34200E20569 /* ContentView.swift */; };
+		3C6433B02CA5E34300E20569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C6433AF2CA5E34300E20569 /* Assets.xcassets */; };
+		3C6433B42CA5E34300E20569 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C6433B32CA5E34300E20569 /* Preview Assets.xcassets */; };
+		3C6433BE2CA5E34300E20569 /* DocuVaultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6433BD2CA5E34300E20569 /* DocuVaultTests.swift */; };
+		3C6433C82CA5E34300E20569 /* DocuVaultUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6433C72CA5E34300E20569 /* DocuVaultUITests.swift */; };
+		3C6433CA2CA5E34300E20569 /* DocuVaultUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6433C92CA5E34300E20569 /* DocuVaultUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C6433BA2CA5E34300E20569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C64339B2CA5E34100E20569 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C6433A22CA5E34100E20569;
+			remoteInfo = DocuVault;
+		};
+		3C6433C42CA5E34300E20569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C64339B2CA5E34100E20569 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C6433A22CA5E34100E20569;
+			remoteInfo = DocuVault;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C6433A32CA5E34100E20569 /* DocuVault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocuVault.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C6433A62CA5E34200E20569 /* DocuVaultApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocuVaultApp.swift; sourceTree = "<group>"; };
+		3C6433A82CA5E34200E20569 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		3C6433AB2CA5E34200E20569 /* DocuVault.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DocuVault.xcdatamodel; sourceTree = "<group>"; };
+		3C6433AD2CA5E34200E20569 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3C6433AF2CA5E34300E20569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C6433B12CA5E34300E20569 /* DocuVault.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DocuVault.entitlements; sourceTree = "<group>"; };
+		3C6433B32CA5E34300E20569 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C6433B92CA5E34300E20569 /* DocuVaultTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocuVaultTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C6433BD2CA5E34300E20569 /* DocuVaultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocuVaultTests.swift; sourceTree = "<group>"; };
+		3C6433C32CA5E34300E20569 /* DocuVaultUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocuVaultUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C6433C72CA5E34300E20569 /* DocuVaultUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocuVaultUITests.swift; sourceTree = "<group>"; };
+		3C6433C92CA5E34300E20569 /* DocuVaultUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocuVaultUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C6433A02CA5E34100E20569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6433B62CA5E34300E20569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6433C02CA5E34300E20569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C64339A2CA5E34100E20569 = {
+			isa = PBXGroup;
+			children = (
+				3C6433A52CA5E34100E20569 /* DocuVault */,
+				3C6433BC2CA5E34300E20569 /* DocuVaultTests */,
+				3C6433C62CA5E34300E20569 /* DocuVaultUITests */,
+				3C6433A42CA5E34100E20569 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C6433A42CA5E34100E20569 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C6433A32CA5E34100E20569 /* DocuVault.app */,
+				3C6433B92CA5E34300E20569 /* DocuVaultTests.xctest */,
+				3C6433C32CA5E34300E20569 /* DocuVaultUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C6433A52CA5E34100E20569 /* DocuVault */ = {
+			isa = PBXGroup;
+			children = (
+				3C6433A62CA5E34200E20569 /* DocuVaultApp.swift */,
+				3C6433A82CA5E34200E20569 /* Persistence.swift */,
+				3C6433AD2CA5E34200E20569 /* ContentView.swift */,
+				3C6433AF2CA5E34300E20569 /* Assets.xcassets */,
+				3C6433B12CA5E34300E20569 /* DocuVault.entitlements */,
+				3C6433AA2CA5E34200E20569 /* DocuVault.xcdatamodeld */,
+				3C6433B22CA5E34300E20569 /* Preview Content */,
+			);
+			path = DocuVault;
+			sourceTree = "<group>";
+		};
+		3C6433B22CA5E34300E20569 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3C6433B32CA5E34300E20569 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3C6433BC2CA5E34300E20569 /* DocuVaultTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C6433BD2CA5E34300E20569 /* DocuVaultTests.swift */,
+			);
+			path = DocuVaultTests;
+			sourceTree = "<group>";
+		};
+		3C6433C62CA5E34300E20569 /* DocuVaultUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C6433C72CA5E34300E20569 /* DocuVaultUITests.swift */,
+				3C6433C92CA5E34300E20569 /* DocuVaultUITestsLaunchTests.swift */,
+			);
+			path = DocuVaultUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C6433A22CA5E34100E20569 /* DocuVault */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C6433CD2CA5E34300E20569 /* Build configuration list for PBXNativeTarget "DocuVault" */;
+			buildPhases = (
+				3C64339F2CA5E34100E20569 /* Sources */,
+				3C6433A02CA5E34100E20569 /* Frameworks */,
+				3C6433A12CA5E34100E20569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DocuVault;
+			productName = DocuVault;
+			productReference = 3C6433A32CA5E34100E20569 /* DocuVault.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C6433B82CA5E34300E20569 /* DocuVaultTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C6433D02CA5E34300E20569 /* Build configuration list for PBXNativeTarget "DocuVaultTests" */;
+			buildPhases = (
+				3C6433B52CA5E34300E20569 /* Sources */,
+				3C6433B62CA5E34300E20569 /* Frameworks */,
+				3C6433B72CA5E34300E20569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C6433BB2CA5E34300E20569 /* PBXTargetDependency */,
+			);
+			name = DocuVaultTests;
+			productName = DocuVaultTests;
+			productReference = 3C6433B92CA5E34300E20569 /* DocuVaultTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C6433C22CA5E34300E20569 /* DocuVaultUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C6433D32CA5E34300E20569 /* Build configuration list for PBXNativeTarget "DocuVaultUITests" */;
+			buildPhases = (
+				3C6433BF2CA5E34300E20569 /* Sources */,
+				3C6433C02CA5E34300E20569 /* Frameworks */,
+				3C6433C12CA5E34300E20569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C6433C52CA5E34300E20569 /* PBXTargetDependency */,
+			);
+			name = DocuVaultUITests;
+			productName = DocuVaultUITests;
+			productReference = 3C6433C32CA5E34300E20569 /* DocuVaultUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C64339B2CA5E34100E20569 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					3C6433A22CA5E34100E20569 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					3C6433B82CA5E34300E20569 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3C6433A22CA5E34100E20569;
+					};
+					3C6433C22CA5E34300E20569 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3C6433A22CA5E34100E20569;
+					};
+				};
+			};
+			buildConfigurationList = 3C64339E2CA5E34100E20569 /* Build configuration list for PBXProject "DocuVault" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C64339A2CA5E34100E20569;
+			productRefGroup = 3C6433A42CA5E34100E20569 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C6433A22CA5E34100E20569 /* DocuVault */,
+				3C6433B82CA5E34300E20569 /* DocuVaultTests */,
+				3C6433C22CA5E34300E20569 /* DocuVaultUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C6433A12CA5E34100E20569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6433B42CA5E34300E20569 /* Preview Assets.xcassets in Resources */,
+				3C6433B02CA5E34300E20569 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6433B72CA5E34300E20569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6433C12CA5E34300E20569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C64339F2CA5E34100E20569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6433A72CA5E34200E20569 /* DocuVaultApp.swift in Sources */,
+				3C6433AC2CA5E34200E20569 /* DocuVault.xcdatamodeld in Sources */,
+				3C6433AE2CA5E34200E20569 /* ContentView.swift in Sources */,
+				3C6433A92CA5E34200E20569 /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6433B52CA5E34300E20569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6433BE2CA5E34300E20569 /* DocuVaultTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6433BF2CA5E34300E20569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6433CA2CA5E34300E20569 /* DocuVaultUITestsLaunchTests.swift in Sources */,
+				3C6433C82CA5E34300E20569 /* DocuVaultUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C6433BB2CA5E34300E20569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C6433A22CA5E34100E20569 /* DocuVault */;
+			targetProxy = 3C6433BA2CA5E34300E20569 /* PBXContainerItemProxy */;
+		};
+		3C6433C52CA5E34300E20569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C6433A22CA5E34100E20569 /* DocuVault */;
+			targetProxy = 3C6433C42CA5E34300E20569 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3C6433CB2CA5E34300E20569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C6433CC2CA5E34300E20569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		3C6433CE2CA5E34300E20569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DocuVault/DocuVault.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DocuVault/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amol.DocuVault;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C6433CF2CA5E34300E20569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DocuVault/DocuVault.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DocuVault/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amol.DocuVault;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C6433D12CA5E34300E20569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amol.DocuVaultTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DocuVault.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DocuVault";
+			};
+			name = Debug;
+		};
+		3C6433D22CA5E34300E20569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amol.DocuVaultTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DocuVault.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DocuVault";
+			};
+			name = Release;
+		};
+		3C6433D42CA5E34300E20569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amol.DocuVaultUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DocuVault;
+			};
+			name = Debug;
+		};
+		3C6433D52CA5E34300E20569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amol.DocuVaultUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DocuVault;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C64339E2CA5E34100E20569 /* Build configuration list for PBXProject "DocuVault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C6433CB2CA5E34300E20569 /* Debug */,
+				3C6433CC2CA5E34300E20569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C6433CD2CA5E34300E20569 /* Build configuration list for PBXNativeTarget "DocuVault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C6433CE2CA5E34300E20569 /* Debug */,
+				3C6433CF2CA5E34300E20569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C6433D02CA5E34300E20569 /* Build configuration list for PBXNativeTarget "DocuVaultTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C6433D12CA5E34300E20569 /* Debug */,
+				3C6433D22CA5E34300E20569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C6433D32CA5E34300E20569 /* Build configuration list for PBXNativeTarget "DocuVaultUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C6433D42CA5E34300E20569 /* Debug */,
+				3C6433D52CA5E34300E20569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3C6433AA2CA5E34200E20569 /* DocuVault.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3C6433AB2CA5E34200E20569 /* DocuVault.xcdatamodel */,
+			);
+			currentVersion = 3C6433AB2CA5E34200E20569 /* DocuVault.xcdatamodel */;
+			path = DocuVault.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3C64339B2CA5E34100E20569 /* Project object */;
+}
